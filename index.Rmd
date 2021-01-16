@@ -110,8 +110,8 @@ ggplotly(ggplot(data.map, aes(long, lat, group = group, text = paste("country:",
            theme_classic() + theme(axis.line = element_blank(), axis.ticks = element_blank(), 
                                    axis.title = element_blank(), axis.text = element_blank(),
                                    legend.title.align=0.5), tooltip = "text") %>%
-  layout(title = list(text=paste0("Number of Reported Incidents of Attacks on Students, Education Personnel and Education Infrastructure","<br>","<sup>","averaged across years: 2013-2017","</sup>"), x=0.5, y=1.05, xref="paper", yref="paper", xanchor="center", font=list(size=20, color="black")),
-         annotations = list(text='Source: <a href ="https://data.humdata.org/dataset/eua-2018">Global Coalition to Protect Education from Attack</a>', x=0.5,y=0, xref="paper", yref="paper", xanchor="center", showarrow=F, font=list(size=12, color="black")),         autosize = T, margin = list(l=20, r=20, b=20, t=35, pad=4))
+  layout(title = list(text=paste0("Number of Reported Incidents of Attacks on Students, Education Personnel and Education Infrastructure","<br>","<sup>","averaged across years: 2013-2017","</sup>"), x=0.5, y=1.01, xref="paper", yref="paper", xanchor="center", font=list(size=20, color="black")),
+         annotations = list(text='Source: <a href ="https://data.humdata.org/dataset/eua-2018">Global Coalition to Protect Education from Attack</a>', x=0.5,y=0, xref="paper", yref="paper", xanchor="center", showarrow=F, font=list(size=12, color="black")),         autosize = T, margin = list(l=20, r=20, b=20, t=30, pad=4))
 
 ```
 
@@ -156,8 +156,8 @@ ggplotly(ggplot(data.map, aes(long, lat, group = group, text = paste("country:",
            theme_classic() + theme(axis.line = element_blank(), axis.ticks = element_blank(), 
                                    axis.title = element_blank(), axis.text = element_blank(),
                                    legend.title.align=0.5), tooltip = "text") %>%
-  layout(title = list(text=paste0("Number of Students, Teachers, and Other Education Personnel Harmed by Attacks on Education","<br>","<sup>","averaged across years: 2013-2017","</sup>"), x=0.5, y=1.05, xref="paper", yref="paper", xanchor="center", font=list(size=20, color="black")),
+  layout(title = list(text=paste0("Number of Students, Teachers, and Other Education Personnel Harmed by Attacks on Education","<br>","<sup>","averaged across years: 2013-2017","</sup>"), x=0.5, y=1.01, xref="paper", yref="paper", xanchor="center", font=list(size=20, color="black")),
          annotations = list(text='Source: <a href ="https://data.humdata.org/dataset/eua-2018">Global Coalition to Protect Education from Attack</a>', x=0.5,y=0, xref="paper", yref="paper", xanchor="center", showarrow=F, font=list(size=12, color="black")),
-         autosize = T, margin = list(l=20, r=20, b=20, t=35, pad=5))
+         autosize = T, margin = list(l=20, r=20, b=20, t=30, pad=5))
   
 ```

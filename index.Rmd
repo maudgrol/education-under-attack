@@ -78,7 +78,7 @@ Incidents {data-orientation=rows}
 Row {data-height=200}
 -------------------------------------
 
-### Average number of incidents per year
+### Average number of incidents per year globally
 
 ```{r}
 
@@ -123,7 +123,7 @@ Severity {data-orientation=rows}
 Row {data-height=200}
 -------------------------------------
 
-### Average number of people harmed each year
+### Average number of people harmed each year globally
 
 ```{r}
 
